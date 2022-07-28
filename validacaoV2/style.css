@@ -1,0 +1,154 @@
+
+
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    left: 35%;
+    right: 35%;
+    align-items: center;
+    background: rgba(122, 61, 20, 0.363);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 40px;
+    width: 487px;
+    height: 529px;
+    position: relative;
+    
+}
+
+#nav {
+    display: flex;
+    gap: 120px;
+    justify-content: flex-start;
+    padding: 50px;
+   
+    
+}
+#navitem {
+    font-style: normal;
+    font-weight: 40px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #EEF6FF;
+    text-decoration: none;
+}
+
+#procura {
+    width: 249px;
+    height: 28px;
+    background: rgba(13, 31, 53, 0.47);
+    border-radius: 60px;
+    box-shadow: none;
+    border: none;
+    text-indent: 10px;
+}
+    
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background: rgba(30, 66, 84, 0.5);
+    backdrop-filter: blur(4px);
+    height: 8%;
+    width: 100.8%;
+    margin-top: -10px;
+    margin-left: -8px;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left: 20px;
+    right: 20px;
+    gap: 30px;
+
+    
+}
+.h1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-size: 20px;
+    color: #EEF6FF;
+   
+}
+
+#pesquisa {
+    display: flex;
+    margin-left: 40%;
+}
+
+small {
+    display: flex;
+    color: rgb(143, 0, 0);
+}
+#email{
+    background: rgba(122, 61, 20, 0.21);
+    border: 1px solid #45261D;
+    border-radius: 6px;
+    width: 266px;
+    height: 48px;
+    text-indent: 10px;
+    font-family:'Frank Ruhl Libre';
+    
+    
+}
+
+#email2{
+    background: rgba(122, 61, 20, 0.21);
+    border: 1px solid #45261D;
+    border-radius: 6px;
+    width: 266px;
+    height: 48px;
+    text-indent: 10px;
+    font-family:'Frank Ruhl Libre';
+}
+
+#senha{
+    background: rgba(122, 61, 20, 0.21);
+    border: 1px solid #45261D;
+    border-radius: 6px;
+    width: 266px;
+    height: 48px;
+    text-indent: 10px;
+    font-family:'Frank Ruhl Libre';
+}
+
+#senha2{
+    background: rgba(122, 61, 20, 0.21);
+    border: 1px solid #45261D;
+    border-radius: 6px;
+    width: 266px;
+    height: 48px;
+    text-indent: 10px;
+    font-family:'Frank Ruhl Libre';
+}
+
+#botao {
+    
+    width: 142px;
+    height: 48px;
+    background: rgba(122, 61, 20, 0.56);
+    border: 1px solid #45261D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-family:'Frank Ruhl Libre';
+    color: #EEF6FF;
+}
+
